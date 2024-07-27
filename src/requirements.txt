@@ -1,0 +1,5 @@
+.txt
+discord.py==2.0.1
+youtube-dl
+spotipy==2.23.0
+python-ffmpeg
