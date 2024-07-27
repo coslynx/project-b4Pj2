@@ -1,0 +1,83 @@
+.gitignore
+# Bytecode compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE project files
+.idea/
+*.iml
+.project
+.pydevproject
+.settings/
+
+# Editor temporary files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# MacOS
+.DS_Store
+
+# Git
+.git/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Configuration and credentials (SENSITIVE!)
+config.py
+credentials.py
+.env*
